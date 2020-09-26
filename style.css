@@ -1,0 +1,113 @@
+*{
+    color: #000000;
+    font-size: 32px;
+    font-family: Roboto, sans-serif;
+}
+/* хедер*/
+header{
+    position: sticky;
+    top: 0px;
+    background-color: #007765;
+    padding-bottom: 50px;
+}
+.logo{
+    float: left;
+}
+nav{
+    float: right;
+    font-size: 24px;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+li{
+    color: #FFFFFF;
+    display: inline-block;
+}
+/* херо-блоки*/
+.hero1 {
+    background-image: url('img/01_image@2x.png');
+    background-size: cover;
+    background-position: center center;
+}
+.hero2 {
+    background-image: url('img/02_image@2x.png');
+    background-size: cover;
+    background-position: center center;
+}
+.container{
+    box-sizing: border-box;
+    max-width: 1219px;
+    padding: 20px 55px;
+    margin: 0px auto;
+}
+.hero__message1{
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+    padding: 160px;
+}
+.hero__message2{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+    padding:100px 110px;
+}
+/*лого*/
+.logo2{
+    float: left;
+    padding-right: 50px;
+}
+/*тим-карт*/
+.team-card{
+    background-color: #EEEEEE;
+}
+.member-card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+figure{
+    text-align: center;
+    padding: 25px
+}
+figcaption{
+    font-size: 18px;
+    color: #000000;
+    font-style: italic;
+}
+/*футер*/
+footer{
+    background-color: #333333;
+}
+.footer{
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    background-size:cover;
+    background-position: center center;
+    padding: 50px 290px;
+}
+/*текст*/
+h1, h2{
+    color: #007765;
+    text-align: center;
+    font-weight: bold;
+}
+h1{
+    font-size: 64px;
+}
+h2{
+    font-size: 24px;
+}
